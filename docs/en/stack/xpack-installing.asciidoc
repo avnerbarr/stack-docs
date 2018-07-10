@@ -2,7 +2,21 @@
 [[installing-xpack]]
 === Installing {xpack}
 
-By default, when you install {es}, {kib}, and Logstash, {xpack} is installed.
+By default, when you install {es}, {kib}, and Logstash, {xpack} is installed. 
+
+IS this an "OR" or an "AND" statment regarding the "default"? i.e. does it mean :
+
+
+`if you installed (ES && KIB && LS) => xpack is installed`
+
+or does it mean:
+
+`if ES || (KIB && LS) => xpack is installed`
+
+or does it mean:
+
+`if (ES || KIB) && LS => xpack is installed`
+
 For more information, see:
 
 * {ref}/install-elasticsearch.html[Installing {es}]
